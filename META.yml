@@ -1,6 +1,6 @@
 name: CGI-QuickApp
-version: 0.01
-abstract: WWW data extraction
+version: 0.02
+abstract: Prototyping reusable web-apps very quickly
 author: Yung-chung Lin <xern@cpan.org>
 license: perl
 distribution_type: module

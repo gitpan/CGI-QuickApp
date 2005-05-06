@@ -2,7 +2,7 @@ use inc::Module::Install;
 
 
 name            ('CGI-QuickApp');
-abstract        ('WWW data extraction');
+abstract        ('Prototyping reusable web-apps very quickly');
 author          ('Yung-chung Lin <xern@cpan.org>');
 version_from    ('VERSION');
 license         ('perl');
