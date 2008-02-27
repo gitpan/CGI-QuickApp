@@ -1,15 +1,39 @@
+---
 name: CGI-QuickApp
-version: 0.02
-abstract: Prototyping reusable web-apps very quickly
-author: Yung-chung Lin <xern@cpan.org>
-license: perl
-distribution_type: module
-build_requires:
-  Test::More: 0
+version: 0.27
+author:
+  - 'Dirk Lindner <lze@cpan.org>'
+abstract: A simple CGI subclass
+license: lgpl
+resources:
+  license: http://opensource.org/licenses/artistic-license.php
 requires:
-  CGI::Application: 0
-  Template: 0
-no_index:
-  directory:
-    - inc
-generated_by: Module::Install version 0.34
+  CGI: '>=3.29'
+  MD5: '>=2.03'
+  Module::Build: '>=0.2808'
+  Test::More: '>=0.7'
+  Test::Pod: '>=1.26'
+  Test::Pod::Coverage: '>=0.55'
+provides:
+  CGI::QuickApp:
+    file: lib/CGI/QuickApp.pm
+    version: 0.27
+  CGI::QuickApp::Actions:
+    file: lib/CGI/QuickApp/Actions.pm
+    version: 0.27
+  CGI::QuickApp::Config:
+    file: lib/CGI/QuickApp/Config.pm
+    version: 0.27
+  CGI::QuickApp::Session:
+    file: lib/CGI/QuickApp/Session.pm
+    version: 0.27
+  CGI::QuickApp::Settings:
+    file: lib/CGI/QuickApp/Settings.pm
+    version: 0.27
+  CGI::QuickApp::Translate:
+    file: lib/CGI/QuickApp/Translate.pm
+    version: 0.27
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
